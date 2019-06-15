@@ -3,12 +3,12 @@ int main()
 {
 
  //C Program to Display the ATM Transaction
- 	unsigned long amount=1000, deposit, withdraw;
-    int choice, pin, k=0;
-    char transaction ='y';
+       unsigned long amount=1000, deposit, withdraw;
+       int choice, pin, k=0;
+       char transaction ='y';
  
-    while(pin!=1000)
-    {
+       while(pin!=1000)
+       {
 		printf("ENTER YOUR SECRET PIN NUMBER:");
 		scanf("%d", &pin);
 		if (pin != 1000)
